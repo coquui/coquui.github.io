@@ -16,11 +16,7 @@ body {
 .nav {
 	position: fixed;
   	top: 230px;
-  	right: 5px;}
-
-  	.up-down {
-  		color: red;
-  	}
+  	right: 5px;
 }
 
 .nav ol li {
