@@ -1,0 +1,28 @@
+/* Responsive 
+===============================
+    Escritorios muy grandes
+    --------------------------*/
+    @media (min-width: 1200px) {
+        body {
+            }
+        }
+
+    /* Tablets en horizontal y escritorios normales 
+    ---------------------------*/
+    @media (min-width: 768px) and (max-width: 1199px) {
+        body{
+            background-color: red;
+        }
+    }
+
+    /* Moviles en horizontal o tablets en vertical 
+    ---------------------------*/
+    @media {max-width: 767px;} {
+
+    }
+
+    /* Moviles en vertical 
+    ---------------------------*/
+    @media {max-width: 480px;} {
+
+    }
