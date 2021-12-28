@@ -17,8 +17,6 @@ a {
   color: var(--font-color);
 }
 
-
-
 html {
   scroll-behavior: smooth;
 }
@@ -162,9 +160,10 @@ section {
 	transition: box-shadow .7s ease-in-out;
 }
 
-/*- Home animation shadow NO INFINITE.
+/*- Home animation img shadow NO INFINITE.
    ACTIVAR: comentar y descomentar segun animación de
    preferencia -*/
+/* Opcion 1 Sombra en hover*/
 
 .container__profile:hover {
 	box-shadow: 0 0 75px #08fdd8,
@@ -175,7 +174,8 @@ section {
 	transition: box-shadow .7s ease-in-out;
 }
 
-/*- Home animation shadow INFINITE -*/
+/*- Home animation img shadow INFINITE -*/
+/* Opcion 2 Sombra activa constantemente*/
 
 /*.container__profile {
 	position: relative;
@@ -406,8 +406,10 @@ section {
   margin-bottom: 10px;
 }
 
+/* --------- FIN DE SECCION ABOUT -----------*/
 
-/*---------- SECCION SERVICES -----------*/
+
+/*------------ SECCION SERVICES -----------*/
 
 .services__grid {
 	display: grid;
@@ -449,8 +451,10 @@ section {
   color: var(--subtitle-color);
 }
 
+/*---------- FIN DE SECCION SERVICES ---------*/
 
-/* --------SECCION PORTFOLIO-------- */
+
+/* ------------ SECCION PORTFOLIO ----------- */
 
 .portfolio__grid {
 	display: grid;
@@ -527,12 +531,14 @@ section {
 	color: var(--neon-color)
 }
 
+/* --------- FIN DE SECCION PORTFOLIO ---------- */
 
-/*------- SECCION CONTACT --------*/
+
+/*-------------- SECCION CONTACT ---------------*/
 
 .contact__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
@@ -577,8 +583,10 @@ section {
 	transition: color 1s, text-shadow .5s;
 }
 
+/*-------------- FIN DE SECCION CONTACT ---------------*/
 
-/* ------------ SECCION FOOTER ------------*/
+
+/* ----------------- SECCION FOOTER ------------------*/
 
 #footer {
 	color: var(--subtitle-color);
@@ -595,6 +603,8 @@ section {
 #footer a:hover {
   color: var(--neon-color);
 }
+
+/* -------------- FIN DE SECCION FOOTER ---------------*/
 
 
 
